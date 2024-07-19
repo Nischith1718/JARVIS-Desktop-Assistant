@@ -169,7 +169,7 @@ def start_listening():
                     if now == time:
                         speak("Time to wake up sir!!")
                         mixer.init()
-                        mixer.music.load("C:/Users/nisch/Downloads/Alarm Clock Ringing   Free Sound Effect Ringtones.mp3")
+                        mixer.music.load("give a song file path from your computer")
                         mixer.music.play()
 
                     elif now > time:
@@ -227,7 +227,7 @@ root.configure(bg="black")
 root.geometry("1440x900")
 
 
-image_path = "C:\\Users\\nisch\\OneDrive\\Desktop\\212508.gif"
+image_path = "Give image path from your computer"
 img = tk.PhotoImage(file=image_path)
 
 
